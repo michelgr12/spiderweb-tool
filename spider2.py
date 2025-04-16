@@ -39,7 +39,7 @@ for cat, param in parameters:
     input_niveaus[param] = niveau_mapping[keuze]
 
 # Verdeling: 12 hoeken gelijkmatig over 360°
-angles = [i * 30 for i in range(len(parameters))]
+angles = [i * 30 + 15 for i in range(len(parameters))]
 r = [input_niveaus[param] for (_, param) in parameters]
 labels = [param for (_, param) in parameters]
 
