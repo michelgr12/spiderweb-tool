@@ -103,7 +103,7 @@ fig.update_layout(
 # Annotaties: kwadrantnamen en binnen/buitenwereld
 fig.update_layout(
     annotations=[
-        dict(text="Jongeren", x=0.3, y=0.95, xref="paper", yref="paper",
+        dict(text="Jongeren", x=0.15, y=0.85, xref="paper", yref="paper",
              showarrow=False, font=dict(size=18, color="black")),
         dict(text="Mensen", x=0.85, y=0.85, xref="paper", yref="paper",
              showarrow=False, font=dict(size=18, color="black")),
